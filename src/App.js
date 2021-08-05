@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Bienvenidos a la clase numero 2 del curso de React.js
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import "./components/NavBar";
+import NavBar from "./components/NavBar"
+
+class App extends Component {
+  render() {
+    return(
+      <div className="App" >
+        <NavBar />
+        <h1>Clase 2</h1>
+        <p>Texto</p>
+      </div>
+    );
+  };
 }
 
 export default App;
