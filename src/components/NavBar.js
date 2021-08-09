@@ -1,3 +1,4 @@
+import IconExampleDisabled from "./CartWidget"
 
 
 const NavBar = () => {
@@ -13,6 +14,7 @@ const NavBar = () => {
             <li class="nav__item"><a href="d" class="nav__link">Drama</a></li>
             <li class="nav__item"><a href="c" class="nav__link">Comedia</a></li>
             <li class="nav__item"><a href="t" class="nav__link">Terror</a></li>
+            <IconExampleDisabled />
         </ul>
     </nav>
         </nav>
