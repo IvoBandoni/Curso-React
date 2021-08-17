@@ -6,6 +6,8 @@ import NavBar from "./components/NavBar"
 import IconExampleDisabled from "./components/CartWidget"
 import ItemListContainer from "./components/ItemListContainer"
 import ItemCount from "./components/ItemCount"
+import {ItemList} from "./components/itemList"
+
 
 class App extends Component {
   render() {
@@ -15,6 +17,7 @@ class App extends Component {
         <IconExampleDisabled />
         <ItemListContainer />
         <ItemCount />
+        <ItemList />
       </div>
     );
   };
