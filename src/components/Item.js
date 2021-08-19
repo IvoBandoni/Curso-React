@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom"
 import styles from "./Item.css"
 
 export function Item ({ movie }) {
     const imageUrl = "https://image.tmbd.org/t/p/w300" + movie.poster_path;
 
     return (
-        <li ClassName={styles.movieCard}>
+        <li className={styles.movieCard}>
+            <Link to={"/movies/" + movie.id}>
         <img 
         width={230} 
         height={345}
@@ -13,6 +15,7 @@ export function Item ({ movie }) {
         alt={movie.title}
         />
         <div>{movie.title}</div>
+        </Link>
         </li>
     );
 }
