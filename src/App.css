@@ -45,27 +45,21 @@
 	font-family: "Poppins";
 }
 
-.nav__lista {
-  list-style: none;
-  padding: 0;
-  background: #092327;
-  width: 100%;
-  margin: auto;
+#tags{
+  width: 80%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
 
-.nav__lista li a {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  display: flex; }
-
-.nav__lista li {
+.tag{
+  color:white;
+  padding: 10px 15px;
+  background-color: orange;
+  border-radius: 50px;
+  margin: 5px;
   display: inline-block;
-  display: flex; }
-
-.nav__lista li a:hover {
-  background: olive;
-  transition: 1s; }
+  cursor: pointer;
+}

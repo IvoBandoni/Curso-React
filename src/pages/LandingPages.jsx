@@ -1,5 +1,9 @@
 import { ItemList } from "../components/itemList"
+import { Search } from "../components/Search"
 
 export function LandingPage() {
-    return <ItemList />;
+    return <div>
+            <Search />
+            <ItemList />
+           </div> ;
 }

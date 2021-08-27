@@ -16,6 +16,7 @@ function App() {
       <header>
           <Link to="/"><h1 className={styles.title}>Movies</h1>
           </Link>
+          <NavBar />
           <ItemListContainer />
       </header>
       <main>

@@ -1,6 +1,6 @@
-import "./CartWidget.css"
-import React from 'react'
-import { Icon } from 'semantic-ui-react'
+import "./CartWidget.css";
+import React from 'react';
+import { Icon } from 'semantic-ui-react';
 
 
 const IconExampleDisabled = () => <Icon disabled name='cart plus' />
